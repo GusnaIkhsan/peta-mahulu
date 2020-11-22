@@ -20,16 +20,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--CSS============================================= -->
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/linearicons.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/hexagons.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/owl.carousel.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/main.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/template_components/css/styleMe.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/linearicons.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/hexagons.min.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/main.css')}}">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/styleMe.css')}}">
 
      <!-- Leaflet Map -->
      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
