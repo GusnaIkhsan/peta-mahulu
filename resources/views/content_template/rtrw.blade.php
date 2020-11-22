@@ -44,7 +44,7 @@
                     <tr>
                         <td class="text-center">1</td>
                         <td>Batang Tubuh Peraturan Daerah</td>
-                    <td class="text-center"><a target="_blank" href="{{asset('storage/rdtr/Electrochemical.pdf')}}" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
+                    <td class="text-center"><a target="_blank" href="https://peta-mahulu.herokuapp.com/storage/rdtr/Electrochemical.pdf" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
                     </tr>
                 </tbody>
             </table>
