@@ -11,11 +11,11 @@
                 </script>
                 All rights reserved | Mahakam Ulu Website
             </p>
-            <div class="col-lg-4 col-sm-12 footer-social">
+            {{-- <div class="col-lg-4 col-sm-12 footer-social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </footer>
