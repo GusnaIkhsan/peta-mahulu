@@ -106,7 +106,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-feature">
                     <a href="javascript:void(0)" class="title d-flex flex-row">
-                        <span class="lnr lnr-list"></span>
+                        {{-- <span class="lnr lnr-list"></span> --}}
                         <h4>RTRW</h4>
                     </a>
                     <p>
@@ -117,7 +117,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-feature">
                     <a href="javascript:void(0)" class="title d-flex flex-row">
-                        <span class="lnr lnr-apartment"></span>
+                        {{-- <span class="lnr lnr-apartment"></span> --}}
                         <h4>RDTR </h4>
                     </a>
                     <p>
@@ -128,7 +128,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-feature">
                     <a href="javascript:void(0)" class="title d-flex flex-row">
-                        <span class="lnr lnr-map"></span>
+                        {{-- <span class="lnr lnr-map"></span> --}}
                         <h4>Peta</h4>
                     </a>
                     <p>
