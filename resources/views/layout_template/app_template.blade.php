@@ -7,7 +7,7 @@
     <!-- Favicon-->
     <link rel="shortcut icon" href="{{asset('assets/template_components/img/Mahakam_Ulu.ico')}}">
     <!-- Author Meta -->
-    <meta name="author" content="Gusna Ikhsan">
+    <meta name="author" content="Gusna">
     <!-- Meta Description -->
     <meta name="description" content="">
     <!-- Meta Keyword -->
