@@ -20,16 +20,16 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--CSS============================================= -->
-    <link rel="stylesheet" href="{{url('assets/template_components/css/linearicons.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/hexagons.min.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/owl.carousel.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/main.css')}}">
-    <link rel="stylesheet" href="{{url('assets/template_components/css/styleMe.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/linearicons.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/hexagons.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/owl.carousel.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/template_components/css/styleMe.css')}}">
 
      <!-- Leaflet Map -->
      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -48,23 +48,23 @@
 
     @yield('footer')
 
-    <script src="{{url('assets/template_components/js/vendor/jquery-2.2.4.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/vendor/jquery-2.2.4.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="{{url('assets/template_components/js/vendor/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/vendor/bootstrap.min.js')}}"></script>
 
     {{-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script> --}}
-    <script src="{{url('assets/template_components/js/easing.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/hoverIntent.js')}}"></script>
-    <script src="{{url('assets/template_components/js/superfish.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/jquery.ajaxchimp.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/owl.carousel.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/hexagons.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/waypoints.min.js')}}"></script>
-    <script src="{{url('assets/template_components/js/mail-script.js')}}"></script>
-    <script src="{{url('assets/template_components/js/main.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/easing.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/hoverIntent.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/superfish.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/hexagons.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/jquery.counterup.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/waypoints.min.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/mail-script.js')}}"></script>
+    <script src="{{asset('assets/template_components/js/main.js')}}"></script>
 </body>
 
 </html>
