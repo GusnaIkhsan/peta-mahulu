@@ -48,23 +48,23 @@
 
     @yield('footer')
 
-    <script src="{{asset('assets/template_components/js/vendor/jquery-2.2.4.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/vendor/jquery-2.2.4.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="{{asset('assets/template_components/js/vendor/bootstrap.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/vendor/bootstrap.min.js')}}"></script>
 
     {{-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script> --}}
-    <script src="{{asset('assets/template_components/js/easing.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/hoverIntent.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/superfish.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/jquery.ajaxchimp.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/hexagons.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/waypoints.min.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/mail-script.js')}}"></script>
-    <script src="{{asset('assets/template_components/js/main.js')}}"></script>
+    <script src="{{url('assets/template_components/js/easing.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/hoverIntent.js')}}"></script>
+    <script src="{{url('assets/template_components/js/superfish.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/owl.carousel.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/hexagons.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/jquery.counterup.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/waypoints.min.js')}}"></script>
+    <script src="{{url('assets/template_components/js/mail-script.js')}}"></script>
+    <script src="{{url('assets/template_components/js/main.js')}}"></script>
 </body>
 
 </html>
