@@ -36,22 +36,22 @@
                     <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png);width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-curah-hujan.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-curah-hujan.png);width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-curah-hujan.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-curah-hujan.png);width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-geologi.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-geologi.png);width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-geologi.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-geologi.png);width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jaringan-jalan.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-jaringan-jalan.png); width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jaringan-jalan.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jaringan-jalan.png); width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jaringan-sungai.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-jaringan-sungai.png); width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jaringan-sungai.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jaringan-sungai.png); width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jenis-tanah.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-jenis-tanah.png); width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jenis-tanah.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-jenis-tanah.png); width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-persebaran-akifer.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-persebaran-akifer.png); width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-persebaran-akifer.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-persebaran-akifer.png); width:350px;height:350px;"></div></a>
                 </div>
             </div>
         </div>
