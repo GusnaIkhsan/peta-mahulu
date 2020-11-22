@@ -13,8 +13,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/peta','Peta\PetaController@showPeta');
+Route::get('/admin','Peta\PetaController@showPeta');
+Route::get('/all','Peta\PetaController@getAllMap');
+Route::get('/kecamatan/{id}','Peta\PetaController@getMapByKecamatan');
+Route::get('/','Website\PresenterController@showPetaMahulu');
+Route::get('/content/{site}','Website\PresenterController@showContent');
+// Route::get('/kml','Peta\PetaController@kmlInserting');

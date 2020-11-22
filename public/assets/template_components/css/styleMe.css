@@ -1,0 +1,12 @@
+.banner-content h1 {
+	color: #fff;
+	font-size: 47px;
+	font-weight: 300;
+	line-height: 1em;
+}
+
+.feature-area {
+	background: url(../img/feature-bg.jpg) center;
+	background-color: gray;
+	background-size: cover;
+}
