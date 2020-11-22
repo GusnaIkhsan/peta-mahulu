@@ -3,7 +3,7 @@
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="{{ url('/') }}"><img style="width: 45%;" src="{{asset('assets/template_components/img/ulu.png')}}" alt="logo" title="" /></a>
+                <a href="{{ url('/') }}"><img style="width: 45%;" src="https://peta-mahulu.herokuapp.com/assets/template_components/img/ulu.png" alt="logo" title="" /></a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
