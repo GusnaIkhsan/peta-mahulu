@@ -33,7 +33,7 @@
         <div class="section-top-border">
             <div class="row gallery-item" style="margin-top: -50px;">
                 <div class="col-md-4">
-                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png" class="img-pop-up"><div class="single-gallery-image" style="background: url('https://peta-mahulu.herokuapp.com/storage/image/peta-administrasi.png');width:350px;height:350px;"></div></a>
+                    <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png);width:350px;height:350px;"></div></a>
                 </div>
                 <div class="col-md-4">
                     <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-curah-hujan.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/storage/image/peta-curah-hujan.png);width:350px;height:350px;"></div></a>
