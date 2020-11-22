@@ -22,8 +22,8 @@
     <!--CSS============================================= -->
     <link rel="stylesheet" href="{{asset('assets/template_components/css/linearicons.css')}}">
     <link rel="stylesheet" href="{{asset('assets/template_components/css/font-awesome.min.css')}}">
-    {{-- <link rel="stylesheet" href="{{asset('assets/template_components/css/bootstrap.css')}}"> --}}
-    <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/bootstrap.css">
+    <link rel="stylesheet" href="{{url('assets/template_components/css/bootstrap.css')}}">
+    {{-- <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/bootstrap.css"> --}}
     <link rel="stylesheet" href="{{asset('assets/template_components/css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{asset('assets/template_components/css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('assets/template_components/css/hexagons.min.css')}}">
