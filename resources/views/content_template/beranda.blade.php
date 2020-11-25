@@ -152,7 +152,7 @@
                 </a>
             </div> --}}
             <div class="col single-brand">
-                <a target="blank" href="http://humas.mahakamulukab.go.id/">
+                <a target="blank" href="https://www.bappelitbangda.mahakamulukab.go.id/beranda">
                     <img class="img-fluid" src="{{asset('assets/template_components/img/bappelitbangda.png')}}" alt="" style="width: 50%">
                 </a>
             </div>
