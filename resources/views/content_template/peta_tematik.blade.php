@@ -35,7 +35,7 @@
                 <div class="col-md-4">
                     {{-- <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-administrasi.png);width:350px;height:350px;"></div></a> --}}
                     <a href="{{url('assets/storage/image/Peta-Analisis-Kemampuan-Lahan.jpg')}}" class="img-pop-up"><div class="single-gallery-image" style="background: url({{url('assets/storage/image/Peta-Analisis-Kemampuan-Lahan.jpg')}});width:350px;height:265px;"></div></a>
-                    <p>Peta Analisi Kemampuan Lahan</p>
+                    <p>Peta Analisis Kemampuan Lahan</p>
                 </div>
                 <div class="col-md-4">
                     {{-- <a href="https://peta-mahulu.herokuapp.com/assets/storage/image/peta-curah-hujan.png" class="img-pop-up"><div class="single-gallery-image" style="background: url(https://peta-mahulu.herokuapp.com/assets/storage/image/peta-curah-hujan.png);width:350px;height:350px;"></div></a> --}}
