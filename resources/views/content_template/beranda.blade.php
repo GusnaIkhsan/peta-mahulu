@@ -132,7 +132,7 @@
                         <h4>Peta</h4>
                     </a>
                     <p>
-                        Data terkait peta taruang terbagi menjadi 2 bagian yaitu <b>peta rencana pola ruang</b> dan <b>peta tematik</b>
+                        Data terkait peta tata ruang terbagi menjadi 2 bagian yaitu <b>peta rencana pola ruang</b> dan <b>peta tematik</b>
                     </p>
                 </div>
             </div>
@@ -146,15 +146,38 @@
 <section class="brand-area pt-50">
     <div class="container">
         <div class="row align-items-center text-center">
+            {{-- <div class="col single-brand">
+                <a target="blank" href="http://humas.mahakamulukab.go.id/">
+                    <img class="img-fluid" src="{{asset('assets/template_components/img/humas.png')}}" alt="" style="width: 50%">
+                </a>
+            </div> --}}
             <div class="col single-brand">
-                <a href="http://humas.mahakamulukab.go.id/">
-                    <img class="img-fluid" src="{{asset('assets/template_components/img/humas.png')}}" alt="" style="width: 20%">
+                <a target="blank" href="http://humas.mahakamulukab.go.id/">
+                    <img class="img-fluid" src="{{asset('assets/template_components/img/bappelitbangda.png')}}" alt="" style="width: 50%">
                 </a>
             </div>
         </div>
     </div>
 </section>
-<br><br><br>
+<!-- Start brand Area -->
+<section class="brand-area pt-50">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div id="logo">
+                      <img style="width: 80%;" src="{{url('assets/template_components/img/Mahakam_Ulu_Logo.png')}}" alt="logo" title="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7" style="margin-left: -40px;">
+                    <br>
+                    <p style="font-size: 15pt;"><b style="color: black">BAPPELITBANGDA (Badan Perencanaan, Pembangunan, Penelitian, dan Pengembangan Daerah)</b></p>
+                    <p style="font-size: 12pt; margin-bottom: -5px;">Jl. Poros Ujoh Bilang - Long Bangun Kec. Long Bangun</p>
+                    <p style="font-size: 12pt;">Kab. Mahakam Ulu Provinsi Kalimantan Timur</p>
+                </div>
+            </div>
+    </div>
+</section>
+<br><br>
 <!-- End brand Area -->
 
 @endsection

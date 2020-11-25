@@ -159,7 +159,8 @@
     var home = L.control({position: 'topleft'});
     home.onAdd = function () {
         var div = L.DomUtil.create('div', 'home');
-        div.innerHTML = '<button type="button" style="width: 150px;" class="btn btn-sm btn-block btn-default" id="btn_home" onclick="resetMap();"><i class="fa fa-home"></i>&nbsp;Semua Wilayah</button>';
+        // div.innerHTML = '<button type="button" style="width: 150px;" class="btn btn-sm btn-block btn-default" id="btn_home" onclick="resetMap();"><i class="fa fa-home"></i>&nbsp;Semua Wilayah</button>';
+        div.innerHTML = '<button type="button" style="width: 150px;" class="btn btn-sm btn-block btn-default" id="btn_home" onclick="resetMap();">&nbsp;Semua Wilayah</button>';
         div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;
         return div;
     };
