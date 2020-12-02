@@ -53,27 +53,27 @@
                     </tr>
                     <tr>
                         <td class="text-center">3</td>
-                        <td>Lapiran 1 : Rencana Struktur Ruang</td>
+                        <td>Lampiran 1 : Rencana Struktur Ruang</td>
                         <td class="text-center"><a target="_blank" href="https://peta-mahulu.herokuapp.com/assets/storage/rdtr/Laporan.pdf" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
                     </tr>
                     <tr>
                         <td class="text-center">4</td>
-                        <td>Lapiran 2 : Rencana Pola Ruang</td>
+                        <td>Lampiran 2 : Rencana Pola Ruang</td>
                         <td class="text-center"><a target="_blank" href="https://peta-mahulu.herokuapp.com/assets/storage/rdtr/Laporan.pdf" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
                     </tr>
                     <tr>
                         <td class="text-center">5</td>
-                        <td>Lapiran 3 : Rencana Kawasan Strategis</td>
+                        <td>Lampiran 3 : Rencana Kawasan Strategis</td>
                         <td class="text-center"><a target="_blank" href="https://peta-mahulu.herokuapp.com/assets/storage/rdtr/Laporan.pdf" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
                     </tr>
                     <tr>
                         <td class="text-center">6</td>
-                        <td>Lapiran 4 : Indikasi Program</td>
+                        <td>Lampiran 4 : Indikasi Program</td>
                         <td class="text-center"><a target="_blank" href="https://peta-mahulu.herokuapp.com/assets/storage/rdtr/Laporan.pdf" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
                     </tr>
                     <tr>
                         <td class="text-center">7</td>
-                        <td>Lapiran 5 : Ketentuan Umum Peraturan Zonasi</td>
+                        <td>Lampiran 5 : Ketentuan Umum Peraturan Zonasi</td>
                         <td class="text-center"><a target="_blank" href="https://peta-mahulu.herokuapp.com/assets/storage/rdtr/Laporan.pdf" style="font-size:11px;color:white;" class="btn btn-primary btn-xs" data-toggle="tooltip" title=Detail><i class="fa fa-download"></i></a></td>
                     </tr>
                 </tbody>

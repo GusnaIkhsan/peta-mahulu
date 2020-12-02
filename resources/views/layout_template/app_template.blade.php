@@ -21,9 +21,11 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--CSS============================================= -->
     {{-- <link rel="stylesheet" href="{{url('assets/template_components/css/Linearicons.css')}}"> --}}
-    <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/linearicons.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    {{-- <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/linearicons.css"> --}}
     {{-- <link rel="stylesheet" href="{{url('assets/template_components/css/font-awesome.min.css')}}"> --}}
-    <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    {{-- <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/font-awesome.min.css"> --}}
     {{-- <link rel="stylesheet" href="{{url('assets/template_components/css/bootstrap.css')}}"> --}}
     <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/bootstrap.css">
     <link rel="stylesheet" href="https://peta-mahulu.herokuapp.com/assets/template_components/css/magnific-popup.css">
@@ -42,6 +44,15 @@
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
+    <style>
+        .legenda{
+            color: black;
+            background-color:lightgray;
+            padding: 10px;
+            border-radius: 5px;
+            opacity: 60%;
+        }
+    </style>
 </head>
 
 <body>
@@ -129,16 +140,16 @@
     }
 
     function getColor(d) {
-        return d == 'Perkebunan' ? 'green' :
-            d =='HL'  ? 'red' :
-            d == 'HPT'  ? 'purple' :
-            d == 'HP'  ? 'yellow' :
-            d == 'Pertanian Lahan Basah'   ? '#FD8D3C' :
-            d == 'HPK'   ? '#FEB24C' :
-            d == 'Tubuh Air'   ? 'blue' :
-            d == 'Kawasan Industri'   ? 'pink' :
-            d > 10   ? '#FED976' :
-                        '#FFEDA0';
+        return  d == 'Perkebunan'       ? 'green' :
+                d == 'HL'               ? 'red' :
+                d == 'HPT'              ? 'purple' :
+                d == 'HP'               ? 'yellow' :
+                d == 'Pertanian Lahan Basah'   ? '#FD8D3C' :
+                d == 'HPK'              ? '#FEB24C' :
+                d == 'Tubuh Air'        ? 'blue' :
+                d == 'Kawasan Industri' ? 'pink' :
+                d > 10                  ? '#FED976' :
+                                          '#FFEDA0';
     }
 
     function popUpView(data){
@@ -173,8 +184,25 @@
         div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;
         return div;
     };
-
     ddKec.addTo(mymap);
+
+    var legend = L.control({position: 'bottomleft'});
+    legend.onAdd = function (mymap) {
+        var div = L.DomUtil.create('div', 'legenda');
+        labels = ['<div style="margin-bottom:-17px;font-size:11pt;"><strong>Legenda Zona Peta</strong></div>'],
+        categories = ['Perkebunan','HL','HPT','HP','Pertanian Lahan Basah','HPK','Tubuh Air','Kawasan Industri'];
+
+        for (var i = 0; i < categories.length; i++) {
+                div.innerHTML +=
+                labels.push(
+                    '<i class="fa fa-square" style="color:' + getColor(categories[i]) + '"></i> ' +
+                (categories[i] ? categories[i] : '+'));
+
+            }
+            div.innerHTML = labels.join('<br>');
+        return div;
+    };
+    legend.addTo(mymap);
 
     $(document).ready(function() {
         $("#select_kecamatan").append('<option value="0">Pilih Kecamatan</option>');

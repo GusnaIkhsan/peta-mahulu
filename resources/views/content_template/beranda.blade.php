@@ -32,8 +32,9 @@
             <div class="col-lg-6 home-about-left no-padding">
                 <img class="mx-auto d-block img-fluid" src="{{asset('assets/template_components/img/about-img.png')}}" alt="">
             </div>
-            <div class="col-lg-6 home-about-right no-padding">
+            <div class="col-lg-6">
                 <h1>Sistem Informasi Penataan Ruang</h1>
+                <br>
                 {{-- <h5>
                     Membangun Mahulu Untuk Semua Sejahtera Berkeadilan
                 </h5> --}}
@@ -106,7 +107,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-feature">
                     <a href="javascript:void(0)" class="title d-flex flex-row">
-                        {{-- <span class="lnr lnr-list"></span> --}}
+                        <span class="lnr lnr-list"></span>
                         <h4>RTRW</h4>
                     </a>
                     <p>
@@ -117,7 +118,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-feature">
                     <a href="javascript:void(0)" class="title d-flex flex-row">
-                        {{-- <span class="lnr lnr-apartment"></span> --}}
+                        <span class="lnr lnr-apartment"></span>
                         <h4>RDTR </h4>
                     </a>
                     <p>
@@ -128,7 +129,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-feature">
                     <a href="javascript:void(0)" class="title d-flex flex-row">
-                        {{-- <span class="lnr lnr-map"></span> --}}
+                        <span class="lnr lnr-map"></span>
                         <h4>Peta</h4>
                     </a>
                     <p>
