@@ -171,7 +171,7 @@
     home.onAdd = function () {
         var div = L.DomUtil.create('div', 'home');
         // div.innerHTML = '<button type="button" style="width: 150px;" class="btn btn-sm btn-block btn-default" id="btn_home" onclick="resetMap();"><i class="fa fa-home"></i>&nbsp;Semua Wilayah</button>';
-        div.innerHTML = '<button type="button" style="width: 150px;" class="btn btn-sm btn-block btn-default" id="btn_home" onclick="resetMap();">&nbsp;Semua Wilayah</button>';
+        div.innerHTML = '<button type="button" style="width: 150px;" class="btn btn-sm btn-default" id="btn_home" onclick="resetMap();">&nbsp;Semua Wilayah</button>';
         div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;
         return div;
     };
@@ -180,7 +180,7 @@
     var ddKec = L.control({position: 'topleft'});
     ddKec.onAdd = function () {
         var div = L.DomUtil.create('div', 'kecamatan');
-        div.innerHTML = '<select class="form-select" id="select_kecamatan" style="width: 150px;height: 25px;"></select>';
+        div.innerHTML = '<select class="form-select btn btn-sm btn-default" id="select_kecamatan" style="width: 150px;height: 30px;"></select>';
         div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;
         return div;
     };
